@@ -6,5 +6,5 @@ Einfache Zähler-PWA mit reinem HTML, CSS und JavaScript (kein Framework, kein B
 - `manifest.json`, `sw.js`, `icons/` – PWA (installierbar, offline-fähig)
 - Zählerstand wird im `localStorage` unter `testapp-zaehler` gespeichert
 
-Alle Pfade sind relativ, die App läuft daher auch unter einem Unterpfad wie `https://<user>.github.io/meine-app/`.
+Die App läuft unter `https://jan-f-h.github.io/jays-apps-1/`. Alle Pfade sind relativ und lösen sich dort automatisch auf `/jays-apps-1/` auf (`start_url` und `scope` im Manifest sind `./`).
 Nach Änderungen an den Dateien die Versionsnummer `CACHE` in `sw.js` erhöhen, damit Nutzer die neue Version bekommen.
